@@ -1,10 +1,13 @@
 import { Client } from 'discord.js';
 
-const client = new Client();
+class App {
+    constructor() {
+        this.client = Client();
+    }
+}
 
 
 
 
 
-
-export default client;
+export default new App().client;
