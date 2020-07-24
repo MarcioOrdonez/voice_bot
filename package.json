@@ -1,0 +1,12 @@
+{
+  "name": "voice_bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/MarcioOrdonez/voice_bot.git",
+  "author": "marcio.v.ordonez@gmail.com <marcio.v.ordonez@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  }
+}
