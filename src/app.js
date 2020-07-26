@@ -7,8 +7,7 @@ class App {
         this.onMessage();
     }
     onMessage(){
-        // this.client.on('message', msg => Message.send);
-        this.client.on('message', msg => Message.send(msg));
+        this.client.on('message', msg => Message.init(msg));
     }
 }
 
