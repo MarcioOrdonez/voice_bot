@@ -20,7 +20,7 @@ class Voice{
                         outputStream.on("data", console.log);
                         audioStream.on('end', () => {
                             msg.channel.sendMessage(`I'm no longer listening to ${user}`);
-                            voiceChannel.leave();discor
+                            voiceChannel.leave();
                           });
                     }
                 });
@@ -35,6 +35,7 @@ class Voice{
             }).catch(console.log);
         }
     }
+    
 }
 
 export default new Voice;
